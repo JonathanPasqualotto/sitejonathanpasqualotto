@@ -1,0 +1,67 @@
+body{
+        background: radial-gradient(circle,  
+        #036e22 0%,  /* Verde escuro */  
+        #014e34 30%, /* Azul esverdeado profundo */  
+        #002b11 60%, /* Verde quase preto */  
+        #001a06 100% /* Azul petróleo escuro */  
+    );
+    color: white;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+ 
+
+}
+
+.ideia {
+    width: 150px;
+    height: 150px;
+    /* background-color: #025519; */
+}
+
+.imagem {
+    width: 600px; 
+    height: 360px;
+}
+
+.check {
+    width: 56px;
+    height: 56px;
+}
+
+.perfil {
+    width: 320px; 
+    height: 460px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .video {
+        width: 520px;
+    }
+    .imagem {
+        width: 520px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    body {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+    }
+    .video {
+        width: 320px;
+        margin-top: 30px;
+    }
+    .imagem {
+        margin-top: 20px;
+        width: 320px;
+    }
+    #myForm {
+        margin-top: 80px;
+    }
+    .perfil {
+        margin-top: 80px;
+    }
+} 
