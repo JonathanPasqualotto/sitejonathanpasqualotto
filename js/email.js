@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
             event.preventDefault(); // Impede o envio padrão
 
 
-            emailjs.sendForm("service_i1x1q4e", "template_3hd9glo", "#myForm").then(
+            emailjs.sendForm("service_lld2w3m", "template_3hd9glo", "#myForm").then(
                 (response) => {
                     if (response.status === 200){
                         // window.location.href = window.location.href;
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             );
 
-            emailjs.sendForm("service_i1x1q4e","template_i6c4j94", "#myForm").then(
+            emailjs.sendForm("service_lld2w3m","template_i6c4j94", "#myForm").then(
                 (response) => {
                     if (response.status === 200){
                         window.location.href = window.location.href;
